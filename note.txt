@@ -1,0 +1,7 @@
+$nomVar = ["",""] Tableau
+$nomVar = "" string
+
+
+verifier si num
+
+entrer text, trouver si le text est dans le fichier
