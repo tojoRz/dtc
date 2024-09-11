@@ -1,5 +1,5 @@
 <?php
-    $text = readline("entrer une texte : ");
+    $search = readline("Entrez le nom d'une marque de voiture : ");
     
     // Nom du fichier à ouvrir
     $file = 'data.txt';   
@@ -10,16 +10,16 @@
     // Vérifie si le texte est présent dans le fichier
     $found = false;
     foreach ($lines as $line) {
-        if (strpos($line, $text) !== false) {
+        if (strpos($line, $search) !== false) {
             $found = true;
             break;
         }
     }
 
     if ($found) {
-        echo "Le texte est présent dans le fichier.\n";
+        echo "La marque est présent dans le fichier.\n";
     } else {
-        echo "Le texte n'est pas présent dans le fichier.\n";
+        echo "La marque n'est pas présent dans le fichier.\n";
     }
 ?>
 
