@@ -1,5 +1,5 @@
 <?php
-    $num = readline("entrer une numéro : "); //readline() recupère le text et met dans le variable text 
+    $num = readline("Entrez le numéro de la ligne : "); //readline() recupère le text et met dans le variable text 
 
     
     $file = 'data.txt';   
@@ -8,6 +8,6 @@
     
     foreach ($lines as $line_num => $line) {
         if ($num==$line_num) {
-            echo "Line {$line_num} : " . htmlspecialchars($line) . "\n";
+            echo "Ligne {$line_num} : " . htmlspecialchars($line) . "\n";
         }     
     }
