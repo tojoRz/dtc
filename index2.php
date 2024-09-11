@@ -2,7 +2,7 @@
     $num = readline("entrer une numéro : "); //readline() recupère le text et met dans le variable text 
 
     
-    $file = 'test.txt';   
+    $file = 'data.txt';   
 
     $lines = file($file); 
     
