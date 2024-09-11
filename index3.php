@@ -2,7 +2,7 @@
     $text = readline("entrer une texte : ");
     
     // Nom du fichier à ouvrir
-    $file = 'test.txt';   
+    $file = 'data.txt';   
 
     // Lit les lignes du fichier le tableau
     $lines = file($file);
